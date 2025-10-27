@@ -1,0 +1,42 @@
+1) cree la base de datos en mongodb
+2) cree la carpeta donde se alojará el proyecto
+3) inicie el proyecto express:
+	-npm init o npm init -y
+4) instale dependencias como: 
+	-npm i body-parser cors express mongodb mongoose
+	-npm i dotenv nodemon npm-check-updates -D
+	-npm i  express-session jsonwebtoken
+	-npm install bcryptjs
+5) cree archivo .gitignore
+6) configure el package.json
+7) creé y agregué las cosas necesarias en index.js
+8) incluí los scripts necesarios en package.json:
+	-"start": "node index.js"
+	-"dev":"nodemon index.js"
+9) creé el archivo config.js
+10) creé el archivo db.js
+11) creé carpeta models, y carpeta utils, dentro creé archivos como:
+	-models : studentModel.js
+	-utils  : validator.js
+12) cree carpeta services, dentro creé un archivo llamado:
+	-studentService.js
+13) creé carpeta controllers, dentro cree un archivo llamado:
+	-studentController.js
+14) cree carpeta routes, dentro creé un archivo llamado: 
+	-studentRoute.js
+15) terminada la entidad de student(user), antes de ir a thunder completamos datos en:
+	-index.js
+16) pasamos a crear la segunda entidad para crear los populate:
+	-objetiveModel.js
+	-objetiveService.js
+	-objetiveController.js
+	-objetiveRoute.js
+17) se creó tambien otras entidades con su model,service,controller y route:
+	-routine
+	-welfare
+	-diet
+	-assignament
+18) desde el metodo POST todo está en su pleno funcionamiento
+obteniendo asi desde assignament, nombre, objetivo, rutinas y dietas
+19) se procede a terminar los proximos metodos
+
